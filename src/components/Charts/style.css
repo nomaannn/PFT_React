@@ -1,0 +1,15 @@
+.chart-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 90vw; */
+    /* height: 90vh; */
+    box-shadow: var(--shadow);
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.chart-wrapper-1{
+    width: 70%
+}

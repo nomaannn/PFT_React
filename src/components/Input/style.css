@@ -1,0 +1,26 @@
+.input_wrapper>p {
+    text-transform: capitalize;
+    margin-bottom: 0rem;
+    font-size: 0.8rem;
+    margin: 1rem 0rem;
+}
+
+.input_wrapper>input {
+    border-width: 0;
+    border-bottom-width: 1px;
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+    width: 100%;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.input_wrapper>input:focus {
+    outline: none;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.input_wrapper>input::placeholder {
+    color: gray;
+}
